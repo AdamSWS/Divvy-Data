@@ -217,7 +217,7 @@ int main() {
             case 1: {
                 dataTypes case1sub1; //case1 object
                 string fileName = "divvyridesampledata.csv";
-                case1sub1.dataBuild(fileName); //builds vectors based on fileName
+                case1sub1.dataBuild(fileName); 
                 cout << "Total # of trips found in datafile: " << case1sub1.lineVector.size() - 2 << endl;
                 case1sub1.cleanBuild(); //creates clean vectors
                 cout << "Total # of trips in clean data: " << case1sub1.cleanRideID.size() << endl << endl;
